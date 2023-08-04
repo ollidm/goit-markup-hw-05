@@ -324,6 +324,36 @@ link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
+/* кнопка з фодера */
+
+.subscr_button {
+  min-width: 165px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+
+  width: 165px;
+  height: 40px;
+  color: #fff;
+  fill: #fff;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  border: none;
+  display: flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscr_button:hover,
+.subscr_button:focus {
+  border-radius: 4px;
+  background: #404bbf;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
 /* Основна секція */
 .hero {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office.jpg);
@@ -761,6 +791,60 @@ link {
 .logos_a:hover,
 .logos_a:focus {
   background-color: #31d0aa;
+}
+
+.subscr {
+  display: flex;
+  flex-direction: column;
+  margin: 120px;
+}
+
+.subscr_text {
+  color: #fff;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.subscr_form {
+  display: flex;
+  gap: 24px;
+}
+
+.subscr_lable {}
+
+.subscr_email_form {
+  align-items: center;
+  background: #2e2f42;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+}
+
+.subscr_email_form:hover,
+.subscr_email_form:focus {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-color: var(--button-color);
+}
+
+.subscr_email_form:placeholder-shown {
+  color: #ffffff;
+}
+
+.subscr_svg {
+  margin-left: 16px;
 }
 
 /* Модальне вікно */
