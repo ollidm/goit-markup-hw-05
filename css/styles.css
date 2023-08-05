@@ -879,6 +879,7 @@ link {
 
 /* Модальне вікно */
 .backdrop {
+  padding: 72px 24px 24px 24px;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: fixed;
@@ -1100,4 +1101,15 @@ link {
   border: none;
   fill: #f4f4fd;
   background-color: #404bbf;
+}
+
+.label {
+  display: block;
+  margin-bottom: 4px;
+  color: #8e8f99;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
