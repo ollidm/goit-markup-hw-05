@@ -1031,7 +1031,7 @@ link {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-.tarea:focus .tarea:hover {
+.tarea:is(:focus, :hover) {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-color: #4D5AE5;
 }
