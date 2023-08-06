@@ -1101,7 +1101,7 @@ link {
   color: var(--PrimaryBrand);
 }
 
-.box:checked .label_check .checkbox_span {
+.box:checked + .label_check .checkbox_span {
   border: none;
   fill: #f4f4fd;
   background-color: #404bbf;
