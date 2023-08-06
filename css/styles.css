@@ -1033,7 +1033,7 @@ link {
 
 .tarea:focus .tarea:hover {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border-color: var(--PrimaryBrand);
+  border-color: #4D5AE5;
 }
 
 
