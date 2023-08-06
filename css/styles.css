@@ -1041,7 +1041,7 @@ link {
   margin-bottom: 24px;
 }
 
-.lambel {
+.label {
   display: block;
   margin-bottom: 4px;
   color: #8e8f99;
@@ -1053,8 +1053,9 @@ link {
 }
 
 .input_box:focus .input_box:hover .box {
-  border-color: var(--PrimaryBrand);
-  fill: var(--PrimaryBrand);
+  border-color: #4D5AE5;
+
+  fill: #4D5AE5;
 }
 
 
