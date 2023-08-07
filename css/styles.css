@@ -826,7 +826,7 @@ link {
 .subscr {
   display: flex;
   flex-direction: column;
-  margin: 120px;
+  margin-left: auto;
 }
 
 .subscr_text {
